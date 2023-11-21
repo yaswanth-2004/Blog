@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0%;
+  
+  
+}
+.logoimage{
+  height: 10rem;
+  padding-left: 2rem;
+  
+}
+.head{
+  font-size: 2rem;
+  font-style:oblique;
+  text-align: center;
+  margin-left: 20rem;
+  margin-top: 3rem;
+  color: black;
+  
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+.navigation{
+  padding-top: 2rem;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+  align-items: right;
+  padding-left: 20rem;
+  margin-top: 1.5rem;
+}
+li{
+ font-style: italic;
+ font-size: 2rem;
+ 
+
+ 
+}
+li a{
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 191, 255);
+  padding: 10px 10px;
+  
+}
+li a:hover{
+  background-color: rgb(0, 191, 255);
+  color: white;
+  border-radius: 5px;
+}
+
+.backimage{
+  background-image: url(https://media.istockphoto.com/id/1280385511/photo/colorful-background.jpg?s=612x612&w=0&k=20&c=kj0PRQlgvWLzA1-1me6iZp5mlwsZhC4QlcvIEb1J1bs=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 10rem; 
+  border-radius: 20px;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+
+}
+
+.searchTerm {
+  width: 60%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+

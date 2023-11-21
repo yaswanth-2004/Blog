@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tilt+Neon&display=swap');
+
+*{
+   margin:0%;
+}
+
+.title{
+   font-size:4rem;
+   text-align:left;
+   margin-left:4rem;
+   float:left;
+   font-family: 'Montserrat', sans-serif;
+   width:40%;
+   margin-top:2.5rem; 
+}
+.img{
+   float: right;
+   width:50%;
+   margin-top:5rem;
+   margin-right:5rem;
+   border-radius: 30px;
+}
+.desc{
+   font-size: 2rem;
+   padding-top: 25%;
+   margin-left: 3rem;
+   line-height: 3rem;
+   font-family: 'Montserrat', sans-serif;
+   color: grey;
+}
